@@ -7,6 +7,7 @@
       waylandFrontend = true;
       addons = with pkgs; [
         fcitx5-gtk
+        kdePackages.fcitx5-with-addons
         fcitx5-pinyin-zhwiki
         fcitx5-tokyonight
       ];
