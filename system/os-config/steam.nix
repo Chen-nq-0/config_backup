@@ -50,5 +50,10 @@
       enable = true;
       capSysNice = true;
     };
+
+    gamemode = {
+      enable = true;
+      enableRenice = true;
+    };
   };
 }

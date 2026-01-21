@@ -9,5 +9,6 @@
     };
     linyaps.enable = true;
     gvfs.enable = true;
+    fstrim.enable = true;
   };
 }

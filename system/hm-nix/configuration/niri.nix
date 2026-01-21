@@ -9,7 +9,7 @@
 
   programs.niri = {
     enable = true;
-    #   package = pkgs.niri;#inputs.niri.packages.${system}.niri-unstable;
+    package = pkgs.niri; # inputs.niri.packages.${system}.niri-unstable;
   };
 
   xdg.configFile."niri/config.kdl".source = ./config/niri/config.kdl;

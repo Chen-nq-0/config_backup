@@ -4,7 +4,7 @@
     #   ./mihomo/mihomo.nix
   ];
   networking = {
-    hostName = "nIX";
+    hostName = "Cat";
     firewall.enable = false;
     dhcpcd.enable = false;
     useDHCP = lib.mkDefault true;

@@ -17,12 +17,7 @@ in
         name = "sparkle";
         package = my.sparkle;
       })
-
-      #   winetricks
-
-      #   wineWowPackages.waylandFull
-
-      #  gamemode
+      mangohud
     ];
   };
 

@@ -4,9 +4,13 @@
   pkgs,
   ...
 }:
+let
+  wuwa-downloader = pkgs.callPackage ./config/own_nix/wuwa-downloader.nix { };
+in
 {
 
   home.packages = with pkgs; [
+    wuwa-downloader
     nix-output-monitor
     nixfmt
     expect

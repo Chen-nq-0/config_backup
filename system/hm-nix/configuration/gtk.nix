@@ -12,10 +12,10 @@
     theme = {
       package = pkgs.magnetic-catppuccin-gtk.override {
         accent = [ "red" ];
-        shade = "light";
+        shade = "dark";
         tweaks = [ "frappe" ];
       };
-      name = "Catppuccin-GTK-Red-Light-Frappe";
+      name = "Catppuccin-GTK-Red-Dark-Frappe";
     };
 
     iconTheme = {

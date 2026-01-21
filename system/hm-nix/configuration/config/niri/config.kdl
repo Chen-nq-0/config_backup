@@ -109,6 +109,11 @@ window-rule {
 }
 
 window-rule {
+    match app-id="com.ayugram.desktop" title="媒体查看器"
+    open-floating true 
+}
+
+window-rule {
     match app-id="net.lutris.Lutris"
     open-floating true
 }

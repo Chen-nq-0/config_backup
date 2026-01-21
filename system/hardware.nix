@@ -30,16 +30,15 @@
     ];
   };
   fileSystems."/" = {
-    device = "/dev/disk/by-uuid/cd94fd7c-3e20-466a-88d2-caf43894b379";
+    device = "/dev/disk/by-uuid/5f732f47-f0e7-4e90-bc85-7b789605c047";
     fsType = "xfs";
     options = [
-      "discard"
       "noatime"
     ];
   };
 
   fileSystems."/boot/efi" = {
-    device = "/dev/disk/by-uuid/A916-9D3F";
+    device = "/dev/disk/by-uuid/C565-B616";
     fsType = "vfat";
     options = [
       "fmask=0022"
