@@ -30,7 +30,31 @@ mode "2560x1600@120.001"
 }
 
 environment {
-  QT_QPA_PLATFORMTHEME "gtk3"
+##LANG
+    LANG              "zh_CN.UTF-8"
+    LC_CTYPE          "zh_CN.UTF-8"
+    LC_NUMERIC        "zh_CN.UTF-8"
+    LC_TIME           "zh_CN.UTF-8"
+    LC_COLLATE        "zh_CN.UTF-8"
+    LC_MONETARY       "zh_CN.UTF-8"
+    LC_MESSAGES       "zh_CN.UTF-8"
+    LC_PAPER          "zh_CN.UTF-8"
+    LC_NAME           "zh_CN.UTF-8"
+    LC_ADDRESS        "zh_CN.UTF-8"
+    LC_TELEPHONE      "zh_CN.UTF-8"
+    LC_MEASUREMENT    "zh_CN.UTF-8"
+    LC_IDENTIFICATION "zh_CN.UTF-8“
+
+    QT_QPA_PLATFORMTHEME "gtk3"
+    MOZ_ENABLE_WAYLAND   "1"
+    QT_QPA_PLATFORM                 "wayland;xcb"
+    QT_QPA_PLATFORMTHEME            "gtk3"
+    QT_AUTO_SCREEN_SCALE_FACTOR     "1" 
+    _JAVA_AWT_WM_NONREPARENTING     "1"
+    GDK_BACKEND                     "wayland" 
+    CLUTTER_BACKEND                 "wayland"
+    SDL_VIDEODRIVER                 "wayland"
+    ELECTRON_OZONE_PLATFORM_HINT    "auto"  
 }
 
 layout {
